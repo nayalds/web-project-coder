@@ -1,0 +1,14 @@
+.contenedor-productos{
+    color: var(--oscuro);
+}
+
+.productos-txt{
+    margin: 100px;
+}
+
+.productos-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 100px;
+    gap: 30px;
+}

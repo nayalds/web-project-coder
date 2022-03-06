@@ -1,0 +1,39 @@
+.nosotros{
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+    color: var(--oscuro);
+    h2{
+        padding: 10px;
+        text-align: left;
+    }
+    
+    p{
+        line-height: 22px;
+        padding: 10px;
+        text-align: left;
+    }
+}
+
+.nosotros-row{
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    
+}
+.nosotros-cards{
+     flex-basis: 31%;
+     margin-bottom: 5%;
+     padding: 20px 12px;
+     text-align: center;   
+     transition: 0.5s; 
+     border-radius: 10px;
+     &:hover{
+         box-shadow: 0 0 20px 0 var(--grisclaro);
+     }
+     img{
+         width: 80px;
+     }
+}
+

@@ -1,0 +1,64 @@
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+    color: var(--oscuro);
+}
+
+.rowblog{
+    display: flex;
+    gap: 20px;
+}
+
+.blog-left{
+    flex-basis: 65%;
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    h2{
+        margin: 20px;
+    }
+    p{
+        padding: 0;
+    }
+     
+}
+
+.blog-right{
+    flex-basis: 32%;
+    h3{
+        background-color: var(--primary);
+        color: var(--claro);
+        padding: 7px 0  ;
+        margin-bottom: 20px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between ;
+        padding: 8px;
+    }
+}
+
+.coment-boxblog{
+    border: 1px solid var(--grisclaro);
+    margin: 50px 0;
+    padding: 10px 20px;
+    h3{
+        text-align: left;
+    }
+}
+
+//ver leo
+.comment-form input, .comment-form textarea{
+     width: 100% ;
+     padding: 10px;
+     margin: 15px 0px;
+     border: none;
+     outline: none;
+     background-color: var(--grisclaro);         
+}

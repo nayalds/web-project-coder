@@ -1,0 +1,17 @@
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: $naranja-btn;
+    color: $claro;
+    font-weight: 700;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+    
+    &:hover{
+        background-color: $lila;
+    }
+}

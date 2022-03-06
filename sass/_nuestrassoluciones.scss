@@ -1,0 +1,61 @@
+.solucionesIoT{
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+    background-color: var(--oscuro); 
+}
+.section-title{
+    width: 50%;
+    text-align: left;
+    padding: 0 0 5% 10%;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+.campus-col{
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    img{
+        width:350px;
+        display: block;
+    }
+}
+
+
+.layer{
+    display: block;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    &:hover{
+        background-color: rgba(255, 70, 71, 0.5);
+        height: 100%;
+        h4{
+            top:50%;
+            opacity: 1;
+        }
+    }
+    h4{
+        width: 100%;
+        top:100%;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        opacity: 1;
+        transition: 0.5s ;
+        text-align: center;
+    }
+}
+
